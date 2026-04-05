@@ -1,0 +1,28 @@
+cookie:
+  expiry_days: 1
+  key: nexus_signature_key
+  name: nexus_cookie
+credentials:
+  usernames:
+    admin:
+      email: admin@nexusba.com
+      name: Senior BA
+      password: $2b$12$LgMiiip9CitqFH7mWpyxMeL2eR8OmN/7t3pCOek2a5dbozpFPWP8K
+    tavii:
+      email: tavishvijay05@gmail.com
+      first_name: Tavish
+      last_name: Vijay
+      logged_in: false
+      password: $2b$12$dhLjwnSOEbrklFXv87EWJ.TXx6nCrG5CVe00.enNgdGlk8yrgErYm
+      roles: null
+    tavish:
+      email: tavish@gmail.com
+      first_name: Tavish
+      last_name: Vijay
+      logged_in: false
+      password: $2b$12$1G72hCcePbIym8ALLLOKiu42g6H9OjXTyG0iBDXpi4Rs9Ynvo6gmW
+      password_hint: '123'
+      roles: null
+pre-authorized:
+  emails:
+  - user@example.com
