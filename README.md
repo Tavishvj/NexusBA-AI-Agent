@@ -27,7 +27,6 @@ NexusBA is an advanced AI-driven platform designed to bridge the gap between mes
    
 2. **Set Up Virtual Environment:**
 python -m venv .venv
-# On Windows use:
 .venv\Scripts\activate
 
 3.**Install Dependencies:**
