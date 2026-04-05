@@ -26,23 +26,20 @@ NexusBA is an advanced AI-driven platform designed to bridge the gap between mes
    cd NexusBA-AI-Agent
    
 2. **Set Up Virtual Environment:**
-Bash
 python -m venv .venv
 # On Windows use:
 .venv\Scripts\activate
 
 3.**Install Dependencies:**
-Bash
 pip install -r requirements.txt
 
 4.**Environment Variables:**
 Create a .env file in the root directory and add your Groq API Key:
-Plaintext
 GROQ_API_KEY=your_api_key_here
 
 5.**Run the Application:**
-Bash
 streamlit run main_web.py
+
 
  **Why LangGraph?**
 Unlike standard linear LLM chains, NexusBA uses a Stateful Graph. This allows the system to:
